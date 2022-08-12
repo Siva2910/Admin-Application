@@ -1,0 +1,27 @@
+
+.splitScreen{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.topPane{
+  background-image: url('../pages/images/admin.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  grid-column: 1;
+  grid-row: 1;
+}
+.bottomPane{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.form{
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
